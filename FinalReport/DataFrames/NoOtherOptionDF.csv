@@ -1,0 +1,2304 @@
+S3_Bundesland,F3_Haupteinkaufsstaette,F4_EKS_Umfeld
+11,Netto (Rot),2
+4,Rewe,2
+9,Rewe,2
+10,Aldi Nord,1
+10,Rewe,2
+9,Rewe,2
+2,Andere,2
+7,Aldi Süd,2
+9,Edeka,2
+7,Aldi Süd,2
+2,Norma,2
+10,Lidl,2
+10,Rewe,2
+3,Andere,2
+3,Edeka,2
+2,Edeka,1
+10,Aldi Süd,1
+9,Edeka,1
+5,Alnatura,2
+1,Aldi Süd,2
+10,Kaufland,1
+3,Kaufland,2
+10,Netto (Rot),2
+1,Netto (Rot),1
+4,Kaufland,2
+3,Rewe,2
+4,Kaufland,2
+10,Real,2
+2,Kaufland,2
+13,Rewe,2
+3,Rewe,2
+9,Andere,2
+13,Kaufland,2
+2,Kaufland,2
+10,Edeka,1
+3,Amazon,1
+12,Aldi Süd,2
+2,Lidl,2
+9,Aldi Nord,2
+14,Netto (Rot),2
+4,Penny,2
+2,Lidl,2
+7,Rewe,2
+1,Edeka,1
+15,Rewe,2
+9,Rewe,2
+1,Rewe,2
+15,Penny,2
+10,Netto (Rot),2
+10,Rewe,2
+9,Edeka,2
+6,Rewe,2
+10,Aldi Süd,2
+2,Lidl,2
+10,Rewe,2
+10,Edeka,2
+4,Edeka,2
+2,Aldi Süd,2
+3,Andere,2
+8,Netto (Rot),2
+14,Rewe,2
+5,Lidl,2
+7,Netto (Rot),2
+13,Edeka,1
+16,Netto (Rot),1
+10,Aldi Süd,2
+3,Kaufland,2
+11,Aldi Süd,2
+13,Edeka,2
+2,Aldi Süd,2
+1,Aldi Süd,2
+1,Rewe,2
+10,Netto (Rot),1
+7,Lidl,2
+12,Aldi Süd,2
+9,Edeka,2
+7,Edeka,2
+1,Edeka,2
+15,Famila,2
+10,Rewe,2
+9,Lidl,1
+16,Netto (Rot),2
+7,Rewe,2
+9,Aldi Nord,2
+10,Aldi Süd,2
+3,Penny,2
+1,Lidl,1
+15,Edeka,2
+14,Rewe,2
+6,Lidl,1
+1,Kaufland,2
+12,Rewe,2
+10,Lidl,2
+3,Aldi Nord,2
+1,Aldi Süd,2
+14,Edeka,2
+4,Penny,2
+9,Edeka,2
+7,Netto (Rot),2
+15,Aldi Nord,2
+10,Edeka,1
+10,Lidl,2
+2,Tegut,2
+9,Aldi Nord,2
+9,Edeka,2
+10,Lidl,2
+15,Netto (Rot),2
+9,Kaufland,2
+2,Kaufland,2
+10,Rewe,2
+9,Kaufland,2
+1,Lidl,2
+11,Lidl,2
+10,Aldi Süd,2
+11,Edeka,2
+4,Netto (Rot),2
+2,Norma,1
+10,Real,2
+9,Penny,2
+6,Famila,2
+2,Aldi Süd,2
+11,Kaufland,2
+10,Netto (Rot),2
+10,Aldi Nord,2
+10,Lidl,1
+10,Lidl,2
+15,Lidl,1
+9,Real,2
+16,Rewe,2
+10,Aldi Süd,1
+2,Netto (Schwarz),1
+11,Rewe,2
+9,Lidl,2
+2,Norma,2
+3,Edeka,2
+9,Lidl,1
+8,Real,2
+2,Rewe,2
+10,Lidl,2
+11,Lidl,2
+13,Netto (Rot),1
+2,Penny,2
+10,Netto (Rot),1
+15,Edeka,2
+5,Edeka,2
+10,Rewe,2
+10,Aldi Süd,2
+9,Lidl,2
+9,Kaufland,2
+10,Kaufland,2
+10,Kaufland,2
+8,Lidl,2
+9,Rewe,2
+13,Kaufland,2
+10,Edeka,2
+11,Lidl,2
+13,Edeka,2
+12,Real,2
+10,Edeka,2
+14,Edeka,2
+1,Lidl,2
+10,Rewe,1
+16,Kaufland,2
+14,Netto (Rot),2
+10,Rewe,2
+13,Penny,1
+10,Real,2
+7,Edeka,1
+1,Edeka,2
+5,Aldi Nord,1
+16,Kaufland,1
+2,Edeka,2
+14,Lidl,2
+2,Kaufland,2
+13,Kaufland,2
+1,Aldi Süd,2
+16,Lidl,2
+2,Aldi Süd,2
+9,Edeka,2
+2,Netto (Rot),2
+5,Edeka,2
+10,Lidl,2
+11,Netto (Rot),2
+12,Edeka,1
+9,Andere,2
+3,Netto (Schwarz),2
+16,Netto (Rot),2
+2,Lidl,2
+2,Aldi Süd,2
+10,Aldi Nord,2
+10,Netto (Rot),2
+12,Lidl,2
+15,Aldi Nord,2
+10,Kaufland,1
+1,Edeka,2
+15,Aldi Nord,2
+7,Rewe,2
+9,Lidl,2
+10,Aldi Süd,2
+13,Edeka,2
+2,Kaufland,2
+13,Kaufland,2
+7,Edeka,1
+13,Netto (Rot),2
+5,Rewe,1
+13,Kaufland,2
+10,Aldi Süd,1
+2,Netto (Rot),2
+2,Netto (Rot),2
+13,Netto (Schwarz),2
+16,Kaufland,1
+16,Netto (Rot),1
+1,Aldi Süd,2
+16,Andere,2
+10,Edeka,2
+3,Edeka,2
+13,Norma,2
+1,Edeka,1
+16,Edeka,2
+2,Aldi Süd,2
+2,Edeka,2
+6,Aldi Nord,2
+16,Aldi Süd,2
+1,Edeka,2
+13,Kaufland,1
+16,Edeka,2
+9,Aldi Nord,2
+10,Denn's,2
+15,Lidl,2
+10,Lidl,1
+10,Rewe,2
+9,Netto (Rot),2
+10,Rewe,2
+10,Aldi Süd,2
+13,Kaufland,2
+7,Rewe,2
+13,Kaufland,2
+1,Netto (Rot),2
+9,Edeka,1
+13,Rewe,2
+10,Aldi Süd,2
+10,Edeka,2
+6,Penny,1
+11,Lidl,2
+10,Rewe,2
+10,Kaufland,2
+15,Penny,1
+9,Rewe,2
+15,Edeka,1
+15,Rewe,2
+13,Netto (Rot),1
+2,Rewe,2
+10,Aldi Süd,2
+1,Aldi Süd,2
+1,Aldi Süd,2
+15,Aldi Nord,2
+13,Kaufland,2
+15,Rewe,1
+10,Penny,2
+2,Lidl,2
+15,Aldi Nord,2
+1,Rewe,2
+15,Rewe,2
+1,Penny,2
+10,Rewe,1
+6,Edeka,2
+9,Edeka,2
+1,Rewe,2
+14,Kaufland,2
+1,Kaufland,2
+9,Edeka,2
+9,Edeka,2
+9,Edeka,1
+7,Rewe,2
+4,Kaufland,2
+6,Budnikowsky,2
+10,Lidl,2
+9,Rewe,2
+15,Aldi Nord,2
+13,Norma,1
+9,Aldi Nord,2
+15,Edeka,2
+13,Lidl,2
+3,Edeka,2
+2,Norma,2
+7,Kaufland,1
+2,Edeka,2
+11,Aldi Süd,2
+2,Rossmann,1
+1,Andere,2
+10,Kaufland,2
+10,Andere,2
+2,Edeka,1
+3,Kaufland,2
+15,Lidl,2
+6,Lidl,2
+10,Penny,2
+3,Penny,2
+1,Netto (Rot),2
+10,Kaufland,2
+2,Rewe,2
+10,Rewe,1
+10,Penny,2
+9,Penny,2
+9,Aldi Süd,1
+10,Netto (Rot),1
+4,Lidl,2
+13,Kaufland,2
+5,Rewe,2
+12,Globus,2
+9,Rewe,2
+4,Edeka,1
+2,Lidl,2
+1,Real,2
+8,Lidl,2
+11,Aldi Süd,1
+2,Edeka,2
+6,Lidl,2
+1,Edeka,2
+2,Edeka,2
+11,Rewe,2
+4,Netto (Rot),2
+16,Lidl,1
+9,Netto (Rot),1
+9,Edeka,2
+15,Edeka,1
+2,Kaufland,1
+10,Aldi Süd,2
+2,Rewe,2
+8,Edeka,2
+13,Lidl,1
+10,Edeka,2
+10,Aldi Süd,2
+10,Lidl,2
+13,Kaufland,2
+2,Aldi Süd,2
+10,Klaas+Kock,2
+2,Rewe,2
+15,Penny,2
+10,Rewe,2
+10,Netto (Rot),2
+7,Tegut,2
+10,Netto (Rot),1
+1,Edeka,2
+10,Real,2
+2,Lidl,2
+10,Penny,2
+10,Rewe,2
+7,Lidl,2
+10,Rewe,2
+6,Rewe,2
+10,Rewe,1
+1,Kaufland,2
+11,Edeka,1
+4,Rewe,2
+4,Edeka,2
+3,Kaufland,1
+1,Rewe,2
+9,Edeka,1
+9,Penny,2
+10,Combi,2
+16,Edeka,2
+7,Rewe,1
+9,Aldi Nord,2
+10,Edeka,1
+2,Rewe,2
+6,Aldi Nord,2
+15,Aldi Nord,2
+10,Netto (Rot),2
+15,Rewe,2
+11,Lidl,1
+9,Rewe,2
+14,Netto (Rot),2
+10,Netto (Rot),2
+2,Rewe,2
+4,Kaufland,1
+11,Lidl,1
+2,Lidl,2
+15,Real,2
+10,Edeka,2
+14,Real,2
+7,Penny,2
+16,Tegut,2
+3,Kaufland,2
+16,Kaufland,2
+10,Aldi Süd,2
+2,Edeka,2
+4,Kaufland,2
+2,Netto (Rot),1
+2,Aldi Süd,2
+4,Kaufland,2
+1,Lidl,2
+15,Lidl,2
+10,Aldi Süd,2
+1,Kaufland,2
+15,Rewe,2
+11,Aldi Süd,1
+16,Kaufland,2
+10,Aldi Süd,2
+13,Netto (Rot),2
+2,Edeka,2
+6,Penny,2
+10,Rewe,2
+1,Netto (Rot),1
+7,Rewe,2
+10,Edeka,1
+8,Kaufland,2
+9,Rewe,2
+9,Lidl,2
+2,Lidl,2
+14,Kaufland,2
+9,Edeka,2
+10,Rewe,2
+16,Rewe,2
+2,Edeka,2
+10,Lidl,2
+10,Netto (Rot),2
+7,Netto (Rot),2
+8,Lidl,2
+11,Rewe,2
+14,Aldi Nord,2
+9,Edeka,2
+9,Rewe,2
+10,Rewe,2
+4,Rewe,2
+1,Netto (Rot),2
+8,Penny,1
+7,Lidl,2
+4,Kaufland,2
+14,Kaufland,2
+13,Rewe,2
+13,Kaufland,2
+3,Lidl,1
+7,Aldi Süd,2
+8,Rewe,2
+2,Aldi Süd,2
+14,Edeka,2
+15,Edeka,2
+10,Hit,2
+15,Rewe,2
+1,Netto (Rot),2
+9,Edeka,2
+13,Andere,2
+13,Kaufland,2
+10,Rewe,2
+14,Penny,2
+11,Lidl,2
+10,Real,2
+11,Rewe,1
+9,Kaufland,2
+8,Netto (Schwarz),2
+15,Rewe,2
+16,Netto (Rot),2
+14,Edeka,2
+11,Edeka,2
+11,Aldi Süd,2
+10,Aldi Nord,2
+7,Lidl,2
+3,Aldi Süd,2
+9,Edeka,2
+2,Rewe,2
+15,Edeka,1
+1,Real,2
+9,Edeka,2
+10,Norma,2
+1,Rewe,2
+10,Lidl,1
+11,Netto (Rot),2
+9,Edeka,1
+12,Lidl,2
+15,Aldi Nord,1
+13,Kaufland,2
+2,Lidl,2
+3,Kaufland,2
+10,Lidl,2
+8,Aldi Nord,2
+10,Lidl,2
+13,Rewe,2
+15,Penny,2
+10,Lidl,2
+1,Lidl,2
+13,Kaufland,2
+11,Edeka,2
+1,Kaufland,1
+15,Edeka,2
+10,Lidl,2
+2,Edeka,2
+10,Rewe,2
+2,Edeka,2
+14,Aldi Nord,2
+3,Netto (Rot),2
+2,Edeka,2
+16,Kaufland,2
+1,Aldi Süd,2
+2,Netto (Rot),2
+9,Aldi Nord,2
+6,Lidl,2
+13,Aldi Nord,1
+9,Aldi Nord,2
+7,Lidl,2
+10,Hit,2
+10,Lidl,2
+2,Feneberg,2
+10,Rewe,2
+2,Edeka,1
+7,Rewe,2
+4,Edeka,2
+8,Edeka,2
+12,Kaufland,1
+1,Edeka,2
+15,Edeka,2
+2,Edeka,2
+8,Edeka,2
+2,Edeka,2
+13,Penny,1
+7,Edeka,2
+9,Lidl,2
+10,Netto (Rot),2
+16,Rewe,2
+10,Rewe,2
+4,Rewe,2
+7,Rewe,2
+4,Lidl,2
+10,Aldi Nord,2
+2,Edeka,2
+10,Lidl,2
+9,Rewe,2
+10,Aldi Süd,2
+13,Rewe,2
+7,Penny,2
+8,Edeka,2
+7,Netto (Rot),2
+10,Netto (Rot),2
+1,Norma,2
+2,Edeka,2
+2,Kaufland,1
+3,Lidl,2
+15,Aldi Nord,2
+10,Aldi Süd,2
+4,Lidl,2
+1,Denn's,2
+7,Edeka,2
+1,Penny,2
+4,Kaufland,2
+7,Lidl,2
+2,Edeka,2
+2,Rewe,2
+13,Netto (Rot),2
+16,Edeka,2
+2,Netto (Rot),2
+15,Aldi Nord,2
+2,Rewe,2
+16,Aldi Nord,1
+10,Aldi Süd,2
+2,Kaufland,1
+11,Kaufland,2
+6,Rewe,2
+4,Aldi Nord,2
+1,Edeka,1
+8,Aldi Nord,2
+2,Edeka,1
+16,Kaufland,2
+10,Lidl,2
+7,Edeka,2
+14,Aldi Nord,2
+2,Netto (Rot),2
+10,Netto (Rot),2
+2,Edeka,2
+2,Edeka,2
+16,Penny,2
+9,Rewe,2
+3,Kaufland,2
+10,Netto (Rot),2
+9,Netto (Rot),2
+9,Edeka,1
+9,Rewe,2
+10,Kaufland,1
+1,Lidl,1
+16,Kaufland,2
+13,Edeka,2
+10,Rewe,2
+15,Aldi Nord,2
+14,Edeka,2
+16,Penny,2
+2,Penny,2
+7,Lidl,2
+2,Netto (Rot),2
+3,Netto (Rot),2
+3,Kaufland,2
+11,Lidl,2
+10,Aldi Nord,2
+9,Edeka,2
+16,Lidl,1
+9,Andere,1
+10,Aldi Süd,2
+1,Penny,1
+10,Rewe,2
+11,Real,2
+10,Kaufland,2
+9,Netto (Rot),2
+1,Kaufland,2
+2,Edeka,2
+16,Tegut,2
+2,Aldi Süd,2
+8,Netto (Rot),2
+11,Rewe,2
+12,Andere,2
+10,Edeka,1
+1,Kaufland,2
+2,Lidl,2
+1,Rewe,1
+1,Lidl,1
+10,Netto (Rot),2
+9,Aldi Nord,1
+4,Lidl,2
+6,Edeka,2
+7,Rewe,2
+10,Aldi Süd,2
+9,Rewe,2
+12,Edeka,2
+15,Edeka,2
+10,Rewe,1
+9,Penny,1
+4,Netto (Rot),1
+1,Aldi Süd,2
+9,Rewe,2
+15,Aldi Nord,2
+8,Famila,2
+15,Aldi Nord,2
+4,Real,2
+13,Kaufland,2
+16,Kaufland,2
+10,Aldi Süd,1
+9,Netto (Rot),2
+7,Edeka,2
+8,Edeka,2
+10,Lidl,2
+1,Lidl,2
+16,Netto (Rot),1
+9,Aldi Nord,2
+16,Edeka,2
+1,Penny,1
+16,Rewe,2
+13,Rewe,2
+10,Aldi Nord,1
+3,Lidl,2
+1,Edeka,2
+6,Aldi Nord,2
+16,Lidl,2
+13,Rewe,2
+2,Edeka,2
+14,Lidl,2
+14,Edeka,2
+10,Aldi Nord,2
+6,Rewe,2
+2,Edeka,2
+15,Penny,2
+10,Lidl,2
+16,Globus,1
+10,Aldi Süd,2
+11,Edeka,2
+13,Aldi Nord,2
+14,Lidl,2
+10,Netto (Rot),2
+7,Netto (Rot),2
+8,Lidl,2
+3,Kaufland,2
+14,Kaufland,2
+6,Rewe,1
+8,Penny,2
+10,Edeka,2
+6,Edeka,2
+4,Aldi Nord,1
+1,Kaufland,2
+13,Netto (Rot),2
+2,Aldi Süd,2
+10,Aldi Süd,2
+9,Netto (Rot),2
+15,Lidl,2
+13,Kaufland,1
+4,Edeka,1
+2,Aldi Süd,2
+14,Penny,2
+9,Edeka,2
+2,Aldi Süd,2
+1,Kaufland,2
+8,Lidl,2
+10,Lidl,2
+12,Kaufland,2
+15,Famila,2
+7,Hit,2
+12,Lidl,2
+9,Aldi Nord,2
+2,Edeka,2
+15,Lidl,2
+9,Lidl,2
+10,Rewe,2
+16,Netto (Rot),2
+2,Kaufland,2
+11,Lidl,2
+10,Rewe,2
+2,Edeka,2
+9,Aldi Nord,2
+1,Aldi Süd,2
+14,Netto (Rot),2
+1,Kaufland,2
+9,Edeka,2
+10,Combi,1
+9,Edeka,2
+2,Real,2
+9,Real,2
+9,Rewe,2
+10,Rewe,2
+1,Penny,1
+2,Netto (Rot),2
+10,Aldi Süd,2
+8,Rewe,2
+2,Netto (Rot),2
+2,Edeka,1
+10,Rewe,2
+13,Lidl,2
+11,Lidl,2
+3,Edeka,1
+9,Lidl,2
+4,Kaufland,2
+9,Edeka,2
+7,Kaufland,2
+10,Netto (Rot),2
+10,Rewe,2
+10,Edeka,2
+10,Rewe,1
+13,Aldi Süd,2
+2,Kaufland,2
+13,Edeka,2
+10,Edeka,2
+9,Markant,2
+7,Lidl,2
+6,Edeka,2
+12,Kaufland,2
+14,Edeka,2
+4,Kaufland,2
+10,Penny,2
+15,Aldi Nord,2
+3,Kaufland,2
+10,Edeka,2
+9,Rewe,2
+4,Lidl,2
+16,Netto (Rot),1
+15,Edeka,2
+7,Aldi Süd,2
+13,Kaufland,2
+13,Andere,2
+3,Netto (Rot),2
+13,Lidl,2
+10,Edeka,2
+3,Aldi Nord,2
+10,Lidl,2
+7,Lidl,1
+10,Aldi Süd,2
+13,Kaufland,2
+9,Lidl,2
+13,Kaufland,1
+9,Edeka,2
+1,Aldi Süd,2
+10,Rewe,2
+7,Aldi Süd,2
+12,Lidl,2
+10,Real,2
+14,Edeka,1
+15,Lidl,2
+13,Lidl,2
+13,Real,2
+16,Kaufland,2
+10,Netto (Rot),2
+3,Rewe,2
+6,Lidl,2
+9,Andere,2
+10,Edeka,2
+10,Real,2
+14,Lidl,1
+10,Edeka,2
+15,Kaufland,2
+10,Rewe,2
+9,Penny,2
+3,Andere,2
+2,Edeka,2
+5,Penny,2
+9,Edeka,2
+16,Kaufland,2
+10,Edeka,2
+10,Real,2
+10,Aldi Süd,2
+1,Kaufland,2
+2,Kaufland,2
+7,Edeka,1
+1,Edeka,2
+13,Lidl,2
+13,Edeka,2
+1,Lidl,2
+16,Edeka,1
+15,Lidl,2
+1,Kaufland,2
+2,Penny,1
+8,Aldi Nord,2
+10,Edeka,2
+2,Lidl,2
+10,Aldi Süd,1
+10,Penny,2
+11,Rewe,2
+2,Kaufland,2
+10,Edeka,2
+11,Aldi Nord,2
+10,Kaufland,2
+15,Lidl,2
+13,Netto (Rot),2
+10,Penny,2
+13,Andere,2
+13,Kaufland,2
+1,Penny,2
+6,Real,2
+7,Edeka,2
+10,Kaufland,2
+7,Lidl,2
+13,Aldi Nord,2
+10,Rewe,1
+2,Edeka,2
+2,Netto (Rot),2
+10,Edeka,2
+2,Norma,1
+13,Rewe,2
+1,Edeka,2
+11,Netto (Rot),2
+2,Edeka,2
+16,Kaufland,2
+10,Edeka,2
+12,Kaufland,2
+10,Rewe,2
+8,Netto (Rot),2
+13,Rewe,1
+10,Rewe,2
+10,Netto (Rot),1
+13,Kaufland,2
+7,Netto (Rot),1
+10,Aldi Süd,2
+7,Rewe,2
+1,Norma,1
+4,Kaufland,2
+10,Edeka,2
+11,Kaufland,2
+15,Aldi Nord,2
+4,Netto (Rot),1
+15,Netto (Rot),2
+2,Edeka,2
+3,Rewe,2
+14,Kaufland,2
+9,Netto (Rot),2
+14,Kaufland,2
+2,Lidl,2
+10,Netto (Rot),1
+10,Edeka,2
+3,Kaufland,2
+2,Rewe,2
+11,Lidl,2
+13,Globus,2
+2,Netto (Rot),2
+7,Lidl,2
+6,Rewe,2
+1,Rewe,2
+9,Rewe,2
+10,Rewe,1
+10,Aldi Süd,2
+11,Netto (Rot),1
+10,Aldi Nord,2
+10,Edeka,2
+11,Aldi Süd,1
+6,Netto (Rot),2
+9,Edeka,2
+12,Globus,2
+10,Penny,1
+2,Edeka,1
+16,Edeka,1
+10,Rewe,2
+11,Real,2
+7,Aldi Nord,2
+3,Aldi Nord,2
+16,Rewe,2
+7,Aldi Süd,2
+10,Aldi Süd,1
+10,Lidl,2
+9,Lidl,1
+10,Aldi Süd,2
+10,Edeka,2
+2,Edeka,2
+10,Lidl,2
+7,Penny,2
+10,Lidl,2
+2,Edeka,2
+4,Kaufland,2
+1,Edeka,1
+9,Lidl,2
+10,Lidl,1
+1,Edeka,2
+10,Lidl,2
+10,Kaufland,2
+2,Rewe,2
+14,Edeka,2
+1,Rewe,2
+10,Edeka,2
+11,Aldi Süd,2
+10,Edeka,2
+10,Rewe,2
+2,Norma,2
+2,Edeka,2
+9,Edeka,2
+2,Aldi Süd,2
+13,Lidl,2
+5,Rewe,2
+10,Rewe,2
+10,Kaufland,2
+12,Edeka,2
+2,Edeka,1
+11,Aldi Süd,2
+10,DM,1
+13,Lidl,2
+7,Globus,2
+1,Kaufland,2
+10,Kaufland,2
+6,Real,2
+10,Edeka,2
+3,Kaufland,1
+10,Aldi Nord,2
+2,Lidl,2
+10,Edeka,2
+9,Netto (Rot),2
+2,Lidl,2
+2,Aldi Süd,2
+10,Netto (Rot),2
+2,Edeka,1
+10,Hit,2
+3,Edeka,1
+4,Rewe,2
+10,Kaufland,2
+10,Aldi Süd,2
+11,Edeka,2
+2,Penny,2
+15,Rewe,2
+2,Netto (Rot),2
+10,Edeka,2
+2,Rewe,2
+10,Netto (Rot),2
+2,Rewe,2
+11,Aldi Süd,2
+8,Andere,2
+10,Aldi Süd,2
+10,Aldi Nord,2
+9,Penny,2
+13,Kaufland,2
+10,Rewe,2
+2,Netto (Rot),2
+16,Globus,2
+9,Lidl,2
+1,Real,1
+10,Rewe,2
+2,Rewe,1
+2,Aldi Süd,2
+4,Aldi Nord,1
+4,Netto (Rot),2
+2,Netto (Rot),2
+9,Penny,1
+14,Penny,2
+1,Aldi Süd,2
+7,Aldi Süd,2
+10,Kaufland,1
+10,Rewe,2
+2,Lidl,2
+1,Edeka,2
+13,Kaufland,2
+10,Aldi Süd,2
+2,Edeka,2
+3,Edeka,2
+7,Rewe,2
+13,Lidl,1
+9,Lidl,2
+10,Edeka,2
+10,Kaufland,2
+2,Aldi Süd,2
+10,Real,2
+2,Aldi Süd,2
+9,Edeka,2
+11,Lidl,2
+3,Kaufland,2
+10,Aldi Süd,2
+2,Edeka,2
+9,Kaufland,2
+7,Aldi Süd,2
+13,Lidl,1
+10,Aldi Nord,2
+9,Combi,2
+3,Kaufland,2
+7,Aldi Süd,2
+1,Aldi Süd,2
+12,Kaufland,2
+9,Lidl,2
+10,Rewe,2
+10,Netto (Rot),2
+2,Lidl,1
+2,Netto (Rot),2
+7,Andere,2
+10,Lidl,2
+3,Lidl,2
+13,Edeka,2
+10,Penny,2
+7,Lidl,1
+15,Lidl,2
+10,Netto (Rot),1
+10,Edeka,1
+3,Denn's,2
+10,Kaufland,2
+11,Kaufland,2
+13,Aldi Süd,1
+3,Edeka,1
+4,Aldi Nord,2
+9,Edeka,2
+10,Penny,2
+10,Aldi Süd,2
+3,Kaufland,2
+10,Edeka,2
+9,Lidl,2
+2,Globus,1
+1,Kaufland,2
+4,Netto (Rot),2
+13,Netto (Rot),2
+10,Netto (Rot),1
+13,Lidl,2
+10,Lidl,2
+10,Edeka,2
+1,Rewe,2
+10,Rewe,2
+12,Globus,2
+1,Netto (Rot),1
+1,Lidl,2
+2,Aldi Süd,2
+10,Penny,2
+1,Rewe,2
+16,Netto (Rot),2
+9,Netto (Rot),2
+7,Rewe,1
+10,Rewe,2
+1,Aldi Süd,2
+10,Lidl,2
+12,Edeka,2
+10,Edeka,2
+7,Rewe,2
+9,Netto (Rot),2
+10,Edeka,2
+13,Kaufland,2
+10,Lidl,1
+9,Aldi Nord,2
+2,Rewe,1
+3,Real,2
+2,Penny,2
+6,Aldi Nord,2
+2,Aldi Süd,1
+2,Edeka,1
+5,Rewe,2
+7,Tegut,1
+6,Rewe,2
+10,Netto (Rot),2
+6,Real,2
+1,Rewe,2
+2,Rewe,2
+14,Aldi Nord,2
+10,Netto (Rot),2
+15,Edeka,2
+2,Aldi Süd,2
+15,Edeka,2
+2,Kaufland,2
+2,Rewe,2
+10,Edeka,2
+14,Edeka,2
+10,Edeka,2
+7,Lidl,2
+12,Edeka,2
+3,Aldi Nord,2
+2,Kaufland,2
+10,Real,2
+2,Lidl,2
+2,DM,1
+3,Edeka,2
+3,Aldi Nord,2
+2,Aldi Süd,1
+10,Rewe,2
+10,Rewe,2
+9,Rewe,2
+1,Edeka,2
+1,Kaufland,2
+9,Aldi Nord,2
+3,Edeka,2
+13,Kaufland,2
+2,Rewe,2
+16,Netto (Rot),1
+9,Edeka,1
+10,Kaufland,2
+11,Aldi Süd,2
+4,Edeka,2
+1,Kaufland,2
+1,Lidl,2
+7,Rewe,2
+1,Netto (Rot),1
+13,Kaufland,2
+2,Edeka,2
+11,Norma,2
+3,Penny,1
+2,Norma,2
+10,Netto (Rot),2
+10,Edeka,2
+2,Aldi Süd,1
+10,Aldi Süd,2
+10,Rossmann,2
+13,Rewe,2
+9,Netto (Rot),1
+10,Rewe,2
+4,Andere,2
+2,Kaufland,2
+2,Norma,2
+1,Real,2
+12,Kaufland,2
+6,Edeka,2
+10,Edeka,2
+7,Aldi Süd,2
+1,Real,2
+8,Netto (Rot),2
+1,Lidl,2
+15,Lidl,2
+10,Edeka,1
+9,Kaufland,2
+2,Kaufland,2
+10,Penny,2
+13,Kaufland,2
+14,Netto (Rot),2
+13,Aldi Nord,2
+3,Rewe,1
+11,Globus,2
+8,Andere,1
+1,Kaufland,2
+4,Kaufland,2
+7,Edeka,2
+1,Aldi Süd,2
+12,Kaufland,2
+9,Lidl,1
+7,Rewe,2
+10,Lidl,2
+10,Penny,2
+16,Kaufland,2
+10,Edeka,2
+2,Edeka,2
+2,Rewe,2
+10,Rewe,2
+10,Lidl,2
+2,Real,2
+10,Edeka,2
+2,Penny,2
+16,Real,2
+14,Kaufland,2
+1,Lidl,2
+16,Edeka,1
+9,Aldi Nord,2
+10,Rewe,2
+9,Rewe,2
+13,Kaufland,2
+11,Aldi Süd,2
+10,Hit,2
+13,Kaufland,2
+13,Rewe,2
+4,Aldi Nord,2
+10,Edeka,1
+1,Hit,2
+10,Aldi Süd,2
+7,Aldi Süd,2
+13,Netto (Rot),2
+1,Lidl,2
+9,Edeka,1
+1,Edeka,1
+10,Aldi Süd,2
+2,Denn's,2
+10,DM,2
+14,Real,2
+1,Alnatura,2
+1,Lidl,2
+2,Edeka,2
+8,Netto (Rot),2
+2,Real,2
+9,Aldi Nord,2
+3,Kaufland,2
+2,Rewe,2
+10,Aldi Süd,2
+12,Lidl,2
+13,Netto (Rot),2
+2,Edeka,2
+7,Rewe,2
+1,Lidl,2
+10,Edeka,2
+13,Andere,2
+7,Aldi Süd,1
+1,Lidl,2
+10,Kaufland,2
+4,Kaufland,1
+2,Rewe,2
+15,Rewe,2
+10,Real,2
+13,Netto (Rot),2
+13,Edeka,2
+7,Rewe,2
+6,Rewe,2
+11,Kaufland,2
+1,Lidl,1
+10,Aldi Nord,2
+15,Rewe,2
+7,Edeka,2
+14,Andere,1
+13,Rewe,2
+15,Rewe,2
+2,Edeka,1
+13,Lidl,1
+9,Rewe,2
+10,Rewe,2
+13,Edeka,2
+3,Netto (Rot),2
+10,Lidl,1
+9,Rewe,2
+7,Rewe,1
+9,Edeka,2
+11,Aldi Süd,1
+10,Netto (Rot),1
+15,nah&frisch,1
+13,Kaufland,2
+2,Kaufland,2
+10,Kaufland,1
+7,Kaufland,2
+1,Rewe,2
+8,Rewe,2
+7,Globus,2
+13,Lidl,2
+10,Rewe,1
+2,Aldi Süd,2
+2,Lidl,2
+11,Andere,2
+2,Andere,2
+8,Famila,2
+6,Edeka,1
+7,Aldi Süd,2
+10,Lidl,1
+10,Aldi Nord,2
+1,Edeka,1
+5,Lidl,2
+1,Netto (Rot),2
+7,Rewe,2
+11,Aldi Süd,2
+13,Kaufland,2
+14,Rewe,2
+10,Rewe,2
+1,Edeka,2
+13,Netto (Rot),2
+10,Rewe,2
+7,Kaufland,1
+6,Edeka,2
+10,Aldi Nord,2
+9,Edeka,2
+1,Edeka,1
+2,Edeka,2
+10,Rewe,2
+14,Netto (Rot),1
+2,Edeka,2
+13,Aldi Nord,2
+10,Lidl,2
+8,Real,2
+9,Netto (Rot),2
+7,Edeka,2
+1,Lidl,2
+10,Aldi Nord,2
+2,Edeka,2
+10,Real,2
+9,Lidl,2
+4,Netto (Schwarz),2
+14,Kaufland,2
+13,Rewe,2
+2,Edeka,2
+2,Lidl,2
+4,Real,2
+10,Edeka,2
+2,Edeka,2
+10,Aldi Nord,2
+7,Rewe,2
+11,Lidl,2
+7,Rewe,2
+2,Lidl,2
+6,Penny,2
+2,Edeka,1
+8,Rewe,2
+9,Netto (Rot),2
+1,Penny,2
+9,Edeka,2
+2,Real,2
+14,Edeka,2
+3,Aldi Nord,1
+10,DM,1
+3,Kaufland,2
+10,Rewe,2
+9,Denn's,2
+2,Real,2
+1,Lidl,2
+7,Real,2
+7,Rewe,2
+7,Rewe,2
+11,Kaufland,2
+10,Edeka,2
+11,Real,2
+10,Rewe,1
+2,Real,2
+2,Lidl,2
+10,Aldi Nord,2
+10,Aldi Süd,2
+9,Lidl,2
+7,Lidl,2
+13,Lidl,2
+3,Lidl,1
+11,Lidl,2
+2,Edeka,2
+7,Rewe,2
+10,Real,2
+10,Aldi Nord,1
+16,Edeka,2
+10,Lidl,1
+10,Real,2
+3,Edeka,1
+9,Edeka,1
+2,Aldi Süd,1
+7,Tegut,2
+1,Rewe,2
+10,Netto (Rot),2
+11,Netto (Rot),2
+2,Kaufland,2
+8,Edeka,2
+9,Rewe,2
+1,Aldi Süd,2
+1,Aldi Süd,2
+1,Netto (Rot),2
+15,Edeka,2
+10,Lidl,2
+1,Rewe,2
+8,Rewe,2
+9,Lidl,2
+9,Rewe,2
+15,Aldi Nord,1
+10,Rewe,2
+2,Edeka,2
+4,Kaufland,1
+4,Netto (Rot),2
+1,Aldi Süd,2
+9,Edeka,2
+10,Rewe,1
+13,Lidl,1
+2,Lidl,2
+2,Rewe,2
+1,Real,2
+10,Lidl,2
+15,Aldi Nord,2
+8,Edeka,2
+1,Edeka,2
+4,Kaufland,2
+4,Norma,2
+10,Aldi Nord,2
+15,Edeka,1
+1,Lidl,2
+3,Edeka,2
+7,Rewe,2
+10,Rewe,2
+10,Real,1
+12,Globus,2
+4,Netto (Schwarz),2
+2,Rewe,2
+9,Netto (Rot),2
+2,Netto (Rot),2
+2,Edeka,1
+10,Aldi Süd,2
+13,Globus,2
+1,Rewe,2
+10,Rewe,1
+4,Netto (Rot),1
+10,Rewe,2
+11,Rewe,2
+2,Norma,2
+2,Edeka,2
+2,Aldi Süd,2
+7,Lidl,2
+2,Aldi Süd,2
+9,Lidl,2
+15,Lidl,2
+1,Lidl,2
+9,Aldi Nord,2
+2,Aldi Süd,2
+2,Edeka,2
+10,Edeka,2
+10,Edeka,2
+2,Rewe,2
+6,Edeka,1
+13,Kaufland,2
+10,Aldi Süd,2
+7,Edeka,2
+2,Lidl,1
+2,Amazon,1
+10,Aldi Süd,2
+2,Lidl,2
+16,Penny,2
+10,Real,2
+9,Rewe,2
+4,Penny,2
+7,Edeka,2
+11,Rewe,2
+3,Netto (Rot),2
+4,Lidl,2
+13,Globus,1
+10,Aldi Süd,2
+16,Netto (Rot),1
+15,Lidl,2
+2,Edeka,2
+15,Aldi Nord,2
+2,Edeka,2
+10,Rewe,2
+3,Rewe,2
+2,Edeka,1
+1,Aldi Süd,2
+13,Kaufland,1
+13,Kaufland,2
+2,Kaufland,1
+1,Norma,1
+11,Rewe,2
+16,Edeka,2
+9,Rewe,2
+11,Lidl,2
+9,Lidl,1
+3,Rewe,2
+4,Lidl,2
+16,Edeka,2
+13,Edeka,2
+1,Rewe,2
+11,Rewe,2
+13,Penny,2
+1,Lidl,2
+7,Rewe,1
+1,Real,2
+10,Kaufland,2
+2,Aldi Süd,2
+10,Norma,1
+10,Real,2
+10,Edeka,2
+2,Edeka,2
+2,Rewe,1
+11,Rewe,2
+2,Edeka,1
+2,Rewe,2
+16,Penny,2
+10,Aldi Süd,2
+9,Lidl,2
+16,Kaufland,1
+1,Norma,2
+10,Aldi Süd,2
+7,Rewe,2
+6,Edeka,2
+13,Edeka,2
+3,Kaufland,2
+3,Rewe,2
+2,Edeka,2
+13,Rewe,2
+1,Rewe,2
+7,Edeka,2
+13,Lidl,2
+7,Lidl,2
+1,Rewe,1
+11,Mix Markt,1
+9,Lidl,2
+5,Real,2
+9,Aldi Nord,2
+13,Netto (Rot),1
+2,Netto (Rot),2
+15,Famila,2
+2,Penny,2
+3,Edeka,2
+16,Kaufland,1
+9,Edeka,1
+10,Kaufland,2
+12,Rewe,2
+9,Netto (Rot),1
+13,Netto (Rot),2
+16,Kaufland,2
+2,Rewe,1
+10,Edeka,2
+10,Netto (Rot),2
+2,Kaufland,2
+7,Rewe,1
+10,Tegut,1
+9,Aldi Nord,2
+3,Kaufland,2
+2,Kaufland,2
+11,Netto (Rot),2
+2,Rewe,2
+9,Aldi Nord,2
+1,Aldi Süd,2
+6,Penny,2
+13,Netto (Rot),2
+2,Aldi Süd,2
+13,Lidl,2
+12,Rewe,2
+9,Rewe,2
+2,Aldi Süd,2
+2,Netto (Rot),2
+1,Penny,2
+11,Rewe,1
+10,Kaufland,2
+2,Real,2
+1,Lidl,2
+14,Real,2
+8,Lidl,2
+1,Penny,2
+6,Lidl,2
+13,Rewe,2
+2,Globus,2
+4,Aldi Nord,1
+13,Edeka,2
+1,Netto (Rot),2
+3,Edeka,1
+9,Edeka,2
+2,Rewe,2
+13,Globus,2
+16,Kaufland,2
+2,Kaufland,2
+13,Edeka,2
+10,Rewe,1
+1,Rewe,2
+10,Penny,2
+7,Rewe,1
+1,Lidl,2
+3,Netto (Rot),1
+2,Edeka,2
+10,Aldi Nord,2
+10,Lidl,2
+6,Aldi Nord,2
+9,Netto (Rot),2
+2,Lidl,2
+9,Real,2
+2,Aldi Süd,2
+16,Rewe,2
+1,Globus,2
+2,Aldi Süd,2
+13,Netto (Rot),2
+13,Netto (Rot),1
+10,Edeka,2
+15,Famila,2
+7,Alnatura,2
+13,Netto (Rot),1
+9,Edeka,1
+10,Aldi Nord,2
+13,Kaufland,2
+16,Rossmann,2
+10,Rewe,1
+13,Edeka,2
+7,Tegut,2
+3,Netto (Rot),1
+1,Penny,2
+16,Rewe,2
+6,Aldi Nord,2
+4,Rewe,1
+10,Aldi Nord,2
+7,Aldi Süd,2
+7,Rewe,2
+3,Kaufland,2
+11,Kaufland,2
+5,Lidl,2
+7,Lidl,2
+2,Edeka,2
+1,Kaufland,1
+7,Rewe,2
+10,Edeka,2
+2,Netto (Rot),2
+10,Rewe,1
+16,Kaufland,2
+2,Real,1
+15,Edeka,2
+10,Rewe,2
+14,Globus,2
+2,Edeka,2
+8,Kaufland,2
+9,Penny,2
+10,Edeka,2
+4,Lidl,2
+2,Netto (Rot),2
+9,Combi,2
+16,Kaufland,2
+2,Aldi Süd,2
+1,Rewe,2
+2,Aldi Süd,2
+2,Penny,2
+1,Kaufland,2
+11,Globus,2
+16,Lidl,2
+16,Rewe,2
+16,Rewe,2
+1,Rossmann,1
+7,Rewe,1
+3,Netto (Rot),2
+10,Rewe,2
+1,Rewe,1
+10,Andere,2
+10,Lidl,2
+10,Kaufland,2
+2,Netto (Rot),2
+1,Netto (Rot),2
+2,Edeka,2
+9,Kaufland,2
+4,Kaufland,2
+15,Edeka,2
+7,Edeka,2
+7,Penny,2
+10,Rewe,2
+10,Edeka,2
+2,Rewe,2
+10,Aldi Süd,2
+1,Lidl,1
+10,Edeka,2
+14,Andere,1
+1,Lidl,1
+13,Lidl,2
+1,Kaufland,2
+1,Lidl,2
+9,Rewe,2
+15,Aldi Nord,2
+11,Real,2
+6,Aldi Nord,2
+2,Lidl,2
+6,Lidl,2
+10,Edeka,2
+14,Netto (Rot),1
+1,Aldi Süd,2
+1,Kaufland,1
+2,Rewe,2
+9,Edeka,1
+10,Rewe,2
+13,Andere,2
+2,Rewe,1
+13,Kaufland,2
+1,Lidl,2
+13,Rewe,2
+9,Kaufland,1
+14,Andere,2
+2,Netto (Rot),2
+2,Lidl,1
+6,Rewe,1
+2,Rewe,1
+15,Aldi Nord,2
+13,Norma,2
+2,Edeka,1
+6,Edeka,2
+2,Netto (Rot),2
+9,Edeka,2
+2,Edeka,2
+1,Penny,2
+10,Aldi Süd,1
+6,Rewe,2
+16,Rewe,2
+1,Edeka,1
+4,Lidl,2
+2,Lidl,2
+1,Lidl,2
+9,Edeka,2
+2,Lidl,2
+10,Aldi Nord,2
+11,Lidl,1
+1,Netto (Rot),2
+2,Globus,2
+7,Aldi Süd,1
+7,Rewe,2
+6,Rewe,2
+10,Edeka,2
+10,Edeka,2
+10,Aldi Süd,2
+11,Rewe,2
+11,Netto (Rot),2
+9,Aldi Nord,2
+10,Edeka,1
+10,Lidl,2
+9,Edeka,2
+2,Rewe,2
+9,Edeka,2
+16,Kaufland,2
+10,Penny,2
+16,Rewe,2
+16,Rewe,1
+6,Aldi Nord,2
+10,Netto (Rot),2
+7,Kaufland,2
+9,Penny,2
+10,Aldi Süd,2
+2,Aldi Süd,2
+2,Rewe,2
+9,Lidl,2
+2,Rewe,1
+10,Kaufland,2
+1,Netto (Rot),1
+13,Lidl,2
+9,Edeka,2
+15,Penny,2
+16,Denn's,2
+4,Lidl,1
+10,Aldi Süd,2
+11,Edeka,1
+2,Rewe,2
+10,Aldi Süd,2
+14,Rewe,1
+10,Rewe,1
+1,Rewe,1
+4,Norma,2
+7,Rewe,2
+2,Aldi Süd,1
+10,Penny,2
+16,Kaufland,2
+10,Real,2
+4,Andere,2
+16,Tegut,2
+1,Lidl,2
+14,Penny,2
+15,Famila,2
+6,Penny,2
+12,Netto (Rot),1
+1,Markant,1
+10,DM,2
+1,Aldi Süd,2
+7,Denn's,2
+11,Lidl,2
+10,Lidl,2
+8,Edeka,2
+10,Rewe,2
+11,Lidl,2
+3,Kaufland,2
+4,Netto (Rot),2
+9,Edeka,2
+10,Kaufland,2
+2,Norma,2
+2,Edeka,2
+7,Rewe,1
+10,Amazon,2
+14,Kaufland,2
+10,Lidl,1
+16,Kaufland,2
+9,Edeka,2
+10,Aldi Süd,2
+14,Kaufland,2
+10,Kaufland,2
+2,Aldi Süd,2
+3,Kaufland,2
+6,Penny,2
+13,Rewe,2
+10,Rewe,2
+4,Netto (Rot),2
+2,Lidl,2
+10,Edeka,1
+1,Edeka,2
+1,Aldi Süd,2
+3,Netto (Rot),1
+2,Kaufland,2
+2,Aldi Süd,2
+1,Penny,2
+13,Rewe,2
+2,Aldi Süd,2
+6,Penny,2
+11,Edeka,2
+15,Penny,2
+10,Rewe,2
+13,Aldi Nord,2
+10,Real,2
+10,Edeka,2
+10,Edeka,2
+13,Edeka,2
+10,Lidl,2
+10,Rewe,1
+6,Lidl,2
+6,Edeka,2
+3,Kaufland,1
+10,Edeka,2
+7,Lidl,2
+8,Edeka,2
+9,Netto (Rot),1
+3,Kaufland,2
+10,Edeka,2
+6,Lidl,2
+1,Kaufland,2
+2,Edeka,1
+13,Globus,2
+10,Rewe,2
+16,Norma,2
+15,Penny,2
+4,Edeka,1
+8,Rewe,2
+10,Andere,1
+4,Kaufland,2
+11,Globus,2
+12,Aldi Süd,2
+13,Edeka,2
+11,Lidl,2
+10,Real,1
+16,Rewe,2
+10,Lidl,2
+10,Norma,2
+2,Lidl,2
+3,Lidl,2
+7,Tegut,1
+11,Lidl,2
+2,Rewe,2
+1,Lidl,2
+13,Netto (Rot),2
+10,Aldi Nord,2
+8,Rewe,2
+2,Edeka,2
+13,Andere,2
+10,Kaufland,1
+2,Rewe,2
+7,Real,2
+3,Kaufland,2
+2,Edeka,2
+10,Edeka,2
+15,Aldi Nord,2
+9,Aldi Nord,2
+9,Penny,2
+14,Aldi Nord,2
+10,Lidl,2
+3,Lidl,2
+10,Rewe,2
+11,Lidl,2
+1,Kaufland,2
+10,Lidl,2
+2,Edeka,2
+1,Lidl,1
+8,Penny,2
+10,Kaufland,2
+8,Edeka,2
+9,Lidl,2
+6,Aldi Nord,2
+15,Rewe,2
+10,Aldi Süd,2
+10,Lidl,2
+16,Netto (Schwarz),2
+11,Rewe,1
+9,Netto (Rot),2
+9,Edeka,2
+2,Edeka,2
+11,Aldi Süd,1
+10,Netto (Rot),2
+10,Rewe,2
+9,Edeka,2
+10,Aldi Süd,2
+2,Lidl,2
+6,Lidl,2
+16,Lidl,2
+9,Real,2
+8,Lidl,2
+14,Penny,1
+6,Lidl,2
+16,Netto (Rot),2
+12,DM,1
+10,Lidl,2
+2,Rewe,2
+13,Penny,2
+10,Edeka,2
+7,Lidl,2
+16,Lidl,2
+7,Netto (Rot),2
+2,Lidl,2
+6,Kaufland,2
+1,Aldi Süd,2
+11,Netto (Rot),2
+14,Andere,1
+10,Lidl,2
+3,Netto (Rot),1
+13,Netto (Rot),2
+10,Rewe,1
+13,Edeka,2
+10,Lidl,2
+9,Kaufland,2
+7,Rewe,2
+13,Kaufland,2
+16,Aldi Nord,2
+10,Aldi Süd,2
+8,Netto (Schwarz),2
+1,Edeka,1
+7,Lidl,2
+10,Penny,2
+10,Aldi Süd,2
+7,Rewe,1
+12,Lidl,2
+10,Lidl,2
+3,Netto (Rot),1
+11,Lidl,2
+2,Lidl,2
+9,Kaufland,1
+7,Rewe,1
+7,Edeka,2
+3,Edeka,2
+10,Real,2
+1,Netto (Rot),1
+10,Lidl,2
+4,Kaufland,2
+9,Rewe,2
+13,Kaufland,2
+7,Aldi Nord,2
+2,Netto (Rot),2
+3,Lidl,2
+14,Edeka,2
+16,Globus,2
+11,Lidl,2
+13,Kaufland,2
+2,Edeka,2
+10,Netto (Rot),2
+13,Lidl,2
+10,Rewe,2
+9,Aldi Nord,2
+13,Jibi Markt,1
+9,Kaufland,2
+16,Rewe,2
+13,Penny,2
+10,Lidl,2
+15,Aldi Nord,2
+7,Aldi Süd,2
+10,Hit,2
+1,Aldi Süd,2
+13,Penny,2
+10,Aldi Nord,2
+13,Kaufland,2
+2,Aldi Süd,2
+10,Rewe,2
+2,Lidl,2
+7,Lidl,2
+10,Rewe,2
+4,Lidl,2
+10,Rewe,2
+3,Netto (Schwarz),2
+9,Penny,1
+2,Edeka,2
+2,Rewe,2
+2,Aldi Süd,2
+1,Aldi Süd,2
+1,Rewe,2
+10,Hit,2
+1,Lidl,2
+7,Netto (Rot),2
+13,Rewe,2
+1,Kaufland,2
+8,Lidl,2
+3,Amazon,1
+10,Lidl,2
+9,Edeka,2
+13,Norma,1
+10,Aldi Süd,2
+16,Lidl,2
+1,Penny,2
+15,Rewe,2
+7,Rewe,2
+2,Edeka,2
+2,Netto (Rot),2
+1,Edeka,2
+2,Norma,1
+10,Lidl,2
+4,Lidl,2
+7,Rewe,1
+7,Tegut,1
+13,Lidl,2
+6,Rewe,2
+9,Combi,2
+2,Netto (Rot),2
+13,Norma,2
+15,Netto (Rot),2
+7,Kaufland,2
+16,Netto (Rot),2
+13,Lidl,2
+10,Aldi Nord,2
+3,Rewe,2
+13,Rewe,2
+2,Rewe,2
+1,Edeka,2
+7,Lidl,2
+6,Rewe,2
+10,Rewe,2
+13,Kaufland,2
+2,Edeka,2
+9,Netto (Rot),2
+2,Penny,2
+10,Rewe,2
+9,Lidl,2
+3,Netto (Rot),2
+6,Kaufland,2
+10,Aldi Süd,2
+10,Aldi Nord,2
+13,Lidl,2
+10,Lidl,2
+14,Kaufland,2
+7,Aldi Süd,2
+10,Edeka,2
+3,Edeka,2
+2,Andere,2
+10,Netto (Rot),2
+9,Combi,2
+10,Edeka,2
+13,Kaufland,2
+10,Edeka,2
+10,Edeka,2
+2,Norma,2
+10,Lidl,2
+9,Edeka,2
+13,Rewe,2
+13,Kaufland,2
+10,Kaufland,2
+2,Edeka,1
+2,Rewe,1
+4,Kaufland,2
+2,Rewe,2
+16,Lidl,2
+3,Kaufland,2
+8,Edeka,2
+2,Lidl,2
+10,Penny,2
+3,Norma,1
+13,Lidl,2
+14,Real,1
+13,Kaufland,1
+8,Netto (Rot),2
+10,Aldi Nord,2
+10,Rewe,2
+10,Andere,2
+8,Real,2
+9,Penny,2
+2,Netto (Rot),2
+1,Aldi Süd,2
+3,Rewe,1
+1,Alnatura,1
+14,Real,2
+4,Netto (Rot),2
+2,Kaufland,2
+10,Edeka,1
+13,Rewe,1
+2,Rewe,2
+4,Edeka,1
+2,Andere,2
+15,Penny,2
+10,Lidl,2
+2,Rewe,2
+13,Netto (Rot),2
+8,Netto (Rot),2
+2,Aldi Süd,2
+3,Aldi Nord,2
+2,Edeka,2
+10,Netto (Rot),1
+2,Penny,2
+6,Lidl,2
+2,DM,2
+8,Andere,2
+2,Rewe,2
+15,Aldi Nord,2
+2,Penny,2
+10,Edeka,2
+2,Edeka,2
+10,Lidl,1
+7,Aldi Süd,2
+11,Real,1
+3,Rewe,2
+9,Netto (Rot),2
+1,Rewe,1
+13,Lidl,2
+2,Edeka,2
+13,Kaufland,2
+3,Aldi Nord,2
+4,Kaufland,2
+10,Real,2
+15,Lidl,2
+10,Lidl,1
+7,Rewe,2
+4,Kaufland,1
+9,Aldi Nord,1
+2,Kaufland,2
+15,Aldi Nord,2
+2,Edeka,2
+7,Amazon,2
+14,Kaufland,2
+2,Netto (Rot),2
+13,Kaufland,2
+1,Lidl,2
+2,Netto (Rot),2
+13,Aldi Nord,2
+10,Kaufland,2
+3,Rewe,2
+1,Kaufland,1
+7,Edeka,2
+1,Real,2
+3,Lidl,2
+11,Netto (Rot),1
+6,Penny,1
+15,Famila,2
+10,Edeka,2
+9,Rewe,2
+6,Kaufland,2
+9,Netto (Rot),2
+10,Rewe,2
+13,Rewe,2
+1,Lidl,1
+3,Lidl,2
+2,Rewe,2
+1,Aldi Süd,2
+10,Edeka,2
+10,Netto (Rot),2
+10,Real,1
+7,Rewe,2
+10,Lidl,2
+3,Penny,2
+2,Edeka,2
+3,Edeka,2
+2,Kaufland,2
+6,Aldi Nord,2
+1,Kaufland,2
+3,Edeka,2
+9,Edeka,2
+6,Aldi Nord,2
+4,Kaufland,2
+9,Andere,2
+6,Netto (Rot),1
+10,Aldi Nord,2
+2,Edeka,1
+4,Lidl,2
+3,Rewe,2
+13,Kaufland,2
+3,Edeka,2
+11,Lidl,2
+3,Edeka,2
+10,Rewe,2
+10,Aldi Nord,2
+10,Rewe,2
+9,Edeka,1
+14,Edeka,2
+2,Lidl,2
+2,Norma,2
+11,Aldi Süd,1
+2,Edeka,1
+16,Kaufland,2
+15,Famila,2
+2,Lidl,2
+10,Netto (Rot),2
+2,Rewe,2
+1,Real,1
+10,Rewe,2
+2,Rewe,2
+10,Netto (Rot),2
+7,Netto (Rot),2
+3,Edeka,1
+2,Rewe,2
+1,Aldi Süd,2
+3,Rewe,1
+7,Penny,2
+3,Edeka,2
+13,Kaufland,2
+2,Lidl,2
+9,Rewe,2
+15,Penny,2
+2,Rewe,2
+13,Aldi Nord,2
+2,Aldi Süd,2
+11,Netto (Rot),2
+2,Aldi Süd,2
+4,Edeka,2
+6,Netto (Rot),2
+8,Penny,2
+4,Netto (Rot),2
+10,Rewe,2
+6,Aldi Nord,2
+15,Aldi Nord,2
+3,Kaufland,2
+7,Real,2
+10,Aldi Süd,1
+10,Netto (Rot),2
+13,DM,2
+13,Kaufland,2
+16,Edeka,2
+10,Lidl,2
+15,Aldi Nord,2
+13,Kaufland,2
+10,Lidl,1
+13,Kaufland,2
+13,Edeka,1
+16,Lidl,2
+9,Penny,2
+7,Edeka,2
+16,Kaufland,2
+2,Real,1
+15,Aldi Nord,2
+10,Penny,1
+4,Kaufland,2
+1,Kaufland,2
+7,Aldi Nord,2
+9,Edeka,2
+9,Aldi Nord,2
+16,Netto (Rot),2
+13,Edeka,2
+9,Edeka,2
+2,Rewe,2
+15,Rewe,2
+1,Edeka,2
+9,Edeka,2
+14,Rewe,2
+2,Rewe,2
+3,Lidl,2
+5,Rewe,2
+4,Rewe,2
+3,Edeka,1
+15,Edeka,2
+16,Globus,2
+1,Norma,2
+13,Kaufland,2
+13,Netto (Rot),2
+13,Rewe,2
+7,Lidl,2
+14,Kaufland,2
+10,Rewe,2
+16,Lidl,2
+2,Lidl,2
+1,Famila,1
+9,Edeka,2
+10,Andere,2
+12,Rewe,2
+7,Netto (Rot),2
+10,Rewe,2
+4,Netto (Rot),2
+15,Edeka,2
+9,Edeka,2
+16,Lidl,2
+10,Lidl,2
+4,Kaufland,2
+7,Penny,2
+7,Aldi Nord,2
+10,Kaufland,2
+13,Lidl,2
+2,Norma,1
+6,Edeka,2
+2,Rewe,2
+13,Kaufland,2
+5,Rewe,2
+9,Penny,2
+13,Rewe,2
+2,Lidl,1
+7,Edeka,2
+13,Globus,2
+7,Rewe,2
+11,Globus,1
+13,Rewe,1
+4,Netto (Rot),2
+14,Kaufland,2
+1,Aldi Süd,2
+10,Edeka,2
+13,Kaufland,2
+7,Rewe,2
+2,Aldi Süd,2
+2,Netto (Rot),2
+4,Rewe,2
+7,Lidl,2
+13,Lidl,2
+10,Rewe,2
+11,Lidl,2
+9,Norma,1
+3,Kaufland,2
+13,Lidl,1
+11,Kaufland,2
+14,Edeka,2
+2,Lidl,1
+9,Real,2
+10,Netto (Rot),2
+7,Edeka,1
+10,Real,2
+3,Lidl,1
+2,Kaufland,2
+4,Netto (Rot),2
+10,Edeka,2
+10,Lidl,2
+10,Rewe,2
+4,Kaufland,2
+1,Edeka,2
+3,Real,1
+12,Globus,2
+10,Aldi Süd,2
+12,Penny,2
+2,Netto (Rot),1
+2,Edeka,2
+10,Lidl,2
+8,Kaufland,2
+2,Kaufland,2
+2,Rewe,2
+15,Lidl,2
+3,Edeka,2
+11,Netto (Rot),2
+10,Edeka,2

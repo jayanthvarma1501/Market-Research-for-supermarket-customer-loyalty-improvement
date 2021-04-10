@@ -1,0 +1,73 @@
+
+/* This change the style of the main container that wraps the whole R Markdown document. It allows the parallax image to be full width */
+.main-container {
+    max-width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Then we place our content with this style because we don't want it to be full width */
+.mycontent{
+      max-width: 900px !important;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: 'Montserrat';
+      font-size: 130%;
+      line-height: 1.7;
+      padding-right: 15px;
+      padding-left: 15px;
+}
+
+
+.shinypart{
+      max-width: 1550px !important;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.initfigs{
+      max-width: 1400px !important;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+
+.floatingdd{
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  background:#00adfc;
+  padding:10px;
+  box-sizing:border-box;
+}
+
+
+
+/* Just for fun, a bit of customization for title and text.. */
+.mytitle{
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-size: 80%;
+  font-weight: 300;
+  letter-spacing: 4px;
+   margin: 3% 0% auto;
+}
+
+.mysubtitle{
+  color:grey;
+  font-family: 'Montserrat';
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 0%;
+}
+
+pre {
+    border: 0px solid #cccccc;
+    border-radius: 0px;
+ }
+
+a {
+  color: #69b3a2;
+}

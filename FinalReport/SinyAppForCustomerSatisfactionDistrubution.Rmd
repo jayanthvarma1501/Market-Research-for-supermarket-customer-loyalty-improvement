@@ -1,0 +1,557 @@
+---
+title: "<center><div class='mytitle'>Market Research for Supermarket Customer Loyality Improvement</div></center>"
+author: "<center><div class='mysubtitle'>By : Jayanth, Sajad Karim, Sai Sharan, Pramod, and Ravi Mallikarjun</div></center>"
+runtime: shiny
+output:
+  html_document:
+      css: style.css
+      toc: FALSE
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+```
+
+```{r ,echo=FALSE ,include=FALSE ,message=FALSE}
+#Packages
+
+library(tidyverse)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(hrbrthemes)
+library(viridisLite)
+library(viridis)
+library(plotly)
+library(reshape2)
+library(shiny)
+library(tmap)
+library(sf)
+library(leaflet)
+library(tm)
+library(wordcloud)
+library(haven)
+library(caret)
+# File Imports
+path = getwd()
+IndividualGroupsSatisClustering<- read.csv(paste0(path,'/DataFrames/RMDINdividualSatisfactionClusters_abc.csv'))
+UniqueShoppingMallCount <- read.csv(paste0(path,'/DataFrames/UniqueShoppingMallsCount.csv'))
+OverallGroupSatisfaction <- read.csv(paste0(path,'/DataFrames/OverallSatisfactionMap.csv'))
+GermanyShapefile<- st_read(paste0(path , "/Igismap/Germany_Polygon.shp"))
+WordCloudDataFrame <- read.csv2(paste0(path,"/DataFrames/WordCloudDF.csv"))
+IncomeDistribution <- read.csv(paste0(path,'/DataFrames/IncomeDistributionDF.csv'))
+NoOtherOptionsDF <- read.csv(paste0(path,'/DataFrames/NoOtherOptionDF.csv'))
+QualityInspection <- read.csv(paste0(path,'/DataFrames/Quality.csv'))
+DatasetInspection <- read.csv(paste0(path,'/DataFrames/DatasetInspection.csv'))
+FilteredBasicDF <- read.csv(paste0(path,'/DataFrames/BasicIndividualGroupsSatisfactionClustersWithFiltered.csv'))
+CompleteBasicDF <- read.csv(paste0(path,'/DataFrames/BasicIndividualGroupsSatisfactionClustersComplete.csv'))
+PricingTable <- read.csv(paste0(path,'/DataFrames/PricingFindabilityTable.csv'))
+IncomeStringsTable <- read.csv(paste0(path,'/DataFrames/IncomeLevelTransposeTable.csv'))
+ClassDistrubution <- read.csv((paste0(path , '/DataFrames/ClassDistrubution.csv')))
+
+FilteredNdist <- UniqueShoppingMallCount%>% filter(ndist >= 30)
+
+as.character(FilteredNdist$SuperMarketNames)
+
+FilteredShoppingMarketNames <- as.character(FilteredNdist$SuperMarketNames)
+
+ProductNames <- colnames(IndividualGroupsSatisClustering)
+
+ProductNames <- ProductNames[-(1:3)]
+
+```
+
+
+<div class="mycontent">
+
+## Shiny Application for interactive visualisation of various aspects supermarket to the level of Customer Satisfaction
+
+</div>
+
+<div class="shinypart"> 
+
+
+```{r , echo=FALSE}
+
+
+shinyApp(
+
+  ui = fluidPage(
+    fluidRow(
+      div(style = "position: font-size: 15px; padding: 0px 0px; margin-top:50px;",
+            HTML(paste("<p style= width:900px;'> We would like to give a detailed report on user responses to various stores,therefore we have included all the question groups for more indetailed interaction and hence in order to make it a bit interactive we are using Shiny which can help to dynamically display the results.The below plot displays the distribution of responses for various categories. We first predicted the cluster results for all the question groups as mentioned above and Filtered the dataset with the selected Supermarket name and displaying the satisfaction ratings distributions in form of BoxPlot.   
+             </p>")),    
+    align = "center",
+    selectInput("SuperMarketName", label =  "Select a Supermarket Chain",
+                choices = FilteredShoppingMarketNames , selected = 'Edeka'),
+    # Output: Tabset w/ plot, summary, and table ----
+    )
+    ),
+    
+    fluidRow(
+      tabsetPanel(type = "tabs",
+                tabPanel("Plot", plotlyOutput("BarPlot", width = "1500px", height = "600px")),
+                tabPanel("Summary", div(style="width:600px;margin-left:500px;margin-right: 500px;",
+                                        fluidRow(verbatimTextOutput("summary",placeholder = TRUE)))),
+                tabPanel("Table", tableOutput("table"))
+      )
+    ),
+    hr(),
+    
+    fluidRow(
+      div(style = "font-size: 15px; padding: 0px 0px; margin-top:100px", 
+      HTML(paste("<p style= width:900px;> We would like to cluster regional wise satsifaction value of the  Customers. We generated the mean value for the responses given by customers for Variety of assortment, Quality,Freshness,Value for money,Availability of goods and Presentation of goods. We are calculating teh mean value of the mentioned attributes and using tmap to display results. This helps to get an overview of which are the strong regions of a particular store and which regions the customers are not satisfied i.e expecting more service from the store.   </p>")),
+      align = "center",
+      leafletOutput("Tmplot", width = "1500px", height = "800px")
+    )
+    
+  ),
+    
+    hr(),
+  
+    fluidRow(
+        div(style = "font-size: 15px; padding: 0px 0px; margin-top:100px", 
+        HTML(paste("<p style= width:900px;> Based on the responses of Customers who are highly pleased with the store we generated Tokens and Eliminated the stopwords i.e the words which doesnot provide any insights , generated a Term Documnet Matri. Based on the frequency of the words we try to build a word cloud.[ We considered ratings as 4 and 5 to be highly pleased customers]  </p>")),
+        align = "center",
+        plotOutput("WordCloudHighRating", width = "1200px", height = "500px")
+      )
+      
+    ),
+    
+    hr(),
+  
+    fluidRow(
+          div(style = "font-size: 15px; padding: 0px 0px; margin-top:30px", 
+          HTML(paste("<p style= width:900px;> Based on the responses of Customers who are not pleased with the store we generated Tokens and Eliminated the stopwords i.e the words which doesnot provide any insights , generated a Term Documnet Matri. Based on the frequency of the words we try to build a word cloud.[ We considered ratings as 1, 2 and 3 to be not pleased customers]  </p>")),
+          align = "center",
+          plotOutput("WordCloudLowRating", width = "1200px", height = "500px")
+        )
+        
+      ),
+      
+      hr(),
+  
+    fluidRow(
+      div(style = "font-size: 15px; padding: 0px 0px; margin-top:100px", 
+                 align = "center",
+          HTML(paste("<p style= width:900px;> The below table contains the Income range of the Customers </p>")),
+          tableOutput("IncomeLevelTable" )
+    )),
+  
+    fluidRow(
+            div(style = "font-size: 15px; padding: 0px 0px; margin-top:30px", 
+            HTML(paste("<p style= width:900px;> In order to provide insights about distribution of Customers across various regions based on the income levels we used the demographic data in which the the values of Customer Income levels are numbered from 1 to 16 a detailed description of the levels is displayed in the below table. We later displayed percentage of Customers of various income levels across each region using the Facet grid. </p>")),
+            align = "center",
+            plotlyOutput("IncomeDistBarPlot", width = "1500px", height = "400px")
+          )
+          
+        ),
+        
+        hr(),
+  
+    fluidRow(
+      div(style = "font-size: 15px; padding: 0px 0px; margin-top:100px", 
+          column(6,
+                 HTML(paste("<p style= width:500px;> In our dataset we gave a couple of Questions which helps to get insights about
+                 loyalty and bonding of Customers ad the store. We used the pie diagram in order to visulaize the proportion of Customers
+                 more effectively. The Red portion in pie diagram represents customers who arare fully ssatisfied with the store. The
+                 green portion represents the proportion of customers who are opting to go to the store as it is the only option in the
+                 locality.[The plotting is done based on response of customers to the question Filiale die einzige Einkaufsmöglichkeit in
+                 Ihrem Umfeld ?]
+                                </p>")),
+                 
+                 
+                 
+                 plotOutput(outputId="OptionsPieChart", width="700px",height="500px")),  
+          column(6,
+                 HTML(paste("<p style= width:500px;> We would like to provide the percentage of the customers who fall under the green 
+                 portion regionwise.Eachstate is represented with a color code.
+                                </p>")),
+                 
+                 plotlyOutput(outputId="plotgraph2", width="700px",height="700px"))
+        )),
+          
+          hr(),
+    fluidRow(
+        div(style = "font-size: 15px; padding: 0px 0px; margin-top:100px", 
+             HTML(paste("<p wstyle= width:900px;> We would like to plot the response of the customers to various price related questions so that it would be                           helpful for the store to analyze the customers mindset and their expectations over the price. The below table                            lists out the  meaning for values in x -axis.                             
+                                </p>")),
+            
+            
+            
+            column(4,plotlyOutput(outputId="PriceSetting1", width="500px",height="500px")),  
+            column(4,plotlyOutput(outputId="PriceSetting2", width="500px",height="500px")),
+            column(4,plotlyOutput(outputId="PriceSetting3", width="500px",height="500px"))
+          )),
+            
+            hr(),
+  
+    fluidRow(
+          div(style = "font-size: 15px; padding: 0px 0px; margin-top:100px", 
+              align = "center",
+              HTML(paste("<p style= width:900px;> We would like to plot the response of the customers to various quality related questions so that it                                 would be helpful for the store to analyze the customers mindset and their expectations over the quality.                                 The below table lists out the meaning for values in x-axis.</p>")),
+              column(4,plotlyOutput(outputId="QualitySetting1", width="500px",height="500px")),  
+              column(4,plotlyOutput(outputId="QualitySetting2", width="500px",height="500px")),
+              column(4,plotlyOutput(outputId="QualitySetting3", width="500px",height="500px"))
+            )),
+              
+              hr(),
+  
+    fluidRow(
+          div(style = "font-size: 15px; padding: 0px 0px; margin-top:100px", 
+              column(4,
+                     HTML(paste("<p style= width:500px;> Its very important for a store to know customers response on the assortment and arrangemnts of                                       products in the store. We plotted the response of the customers for the findability.</p>")),
+                     
+                     plotlyOutput(outputId="Findability", width="500px",height="500px")),  
+              column(4,
+                     HTML(paste("<p style= width:500px;> Its very important for a store to know customers response on the price
+                     labelling. We plotted the response of the customers for the price labelling.</p>")),
+                     plotlyOutput(outputId="PriceLabeling", width="500px",height="500px")),
+              column(4,
+                     HTML(paste("<p style= width:500px;> The Table Contains X-axis Lables of the Price , Findability , Quality
+                                plots .</p>")),
+                     tableOutput(outputId="PriceTable"))
+            
+            )),
+              
+              hr(),
+    
+    fluidRow(
+      div(style = "font-size: 15px; padding: 0px 0px; margin-top:100px", 
+          HTML(paste("<p style= width:900px;> We tried to create a dynamic jitter plot which displays the response of the customer for
+                     various stores.This plot is highly interactive and provides detailed analysis about which store is strong in which
+                     category of products and also helps for the stores to understand the areas of improvement</p>")),
+          
+      align = "center",
+      selectInput("FeatureName", label =  "Select a Product",
+                choices = ProductNames , selected = 'Regional'),
+      plotlyOutput("BarPlot1", width = "1500px", height = "600px")
+    ))
+  
+  
+  
+  
+  ),
+
+  server = function(input, output) {
+    
+    MeltDF <- reactive({
+      supermarket <- input$SuperMarketName
+      df <- IndividualGroupsSatisClustering %>%
+        filter(F3_Haupteinkaufsstaette %in% supermarket)
+      dfmelt<- melt(df, measure.vars = 3:ncol(df))
+      return(dfmelt)
+    })
+    
+    MarketDF <- reactive({
+       DF <- IndividualGroupsSatisClustering %>%
+        filter(F3_Haupteinkaufsstaette %in% input$SuperMarketName)
+       DF <- DF[,-1]
+       return(DF)
+    })  
+    
+    output$BarPlot = renderPlotly({
+      plt <- ggplot(MeltDF(), aes(x=F3_Haupteinkaufsstaette, y=value,fill=variable))+
+        geom_boxplot()+
+        facet_grid(.~variable)+
+        labs(x=input$SuperMarketName)+
+        theme(axis.title.x=element_text(angle=0, vjust=0.4,hjust=1),
+              axis.text.x=element_blank(),
+              axis.ticks.x=element_blank())
+      ggplotly(plt)
+    })
+    
+    output$summary = renderPrint({
+      
+       summary(MarketDF())
+      
+    })
+    
+    
+    output$table <- renderTable({
+    MarketDF()
+  })
+    
+    output$BarPlot1 = renderPlotly({
+      
+      p<- ggplot(data = IndividualGroupsSatisClustering, aes_string(x="F3_Haupteinkaufsstaette", y=input$FeatureName ,
+                                                             fill="F3_Haupteinkaufsstaette")) +
+         geom_boxplot() +
+         scale_fill_viridis(discrete = TRUE, alpha=0.5) +
+         geom_jitter(color="black", size=0.4, alpha=0.9) +
+         theme_ipsum() +
+         labs(x="Supermarket Names")+
+         theme(
+           legend.position="none",
+           axis.text.x=element_text(angle=-90, vjust=0.4,hjust=1),
+           plot.title = element_text(size=11)
+           ) +
+         ggtitle(paste0(input$FeatureName , " boxplot with jitter")) +
+         xlab("")
+
+      fig <- ggplotly(p)
+      fig
+ })
+    
+    GroupedDF <- reactive({
+      Df <- OverallGroupSatisfaction %>% filter(F3_Haupteinkaufsstaette %in% input$SuperMarketName) %>%
+        group_by(name) %>% summarize(Mean_value = mean(RowMeans , na.rm = TRUE))
+      
+      MapData<-inner_join(GermanyShapefile,Df)
+      return(MapData)
+    })
+    
+    output$Tmplot = renderLeaflet({
+      p <- tm_shape(GroupedDF())+ tm_polygons("Mean_value",id="name")
+      tmap_leaflet(p)
+    })
+    
+    GetCorpus <- function(rating){
+      corpus<-Corpus(VectorSource(rating))
+      corpus<-tm_map(corpus,content_transformer(tolower))
+      corpus<-tm_map(corpus,removeWords,stopwords("german"))
+      corpus<-tm_map(corpus,stripWhitespace)
+      tdm<-TermDocumentMatrix(corpus)
+      return(tdm)
+      
+    }
+    
+    GetHighWordCloud <- reactive({
+      DF<-WordCloudDataFrame %>% filter(F3_Haupteinkaufsstaette %in% input$SuperMarketName) %>%
+        select(F7_2_ERWARTUNGEN_1,F7_1.1_ZUFR_BEGR_offen)
+      top_ratings<-DF %>% 
+        filter(F7_2_ERWARTUNGEN_1 %in% c(4,5)) %>% 
+        select(F7_1.1_ZUFR_BEGR_offen)
+      a<-as.matrix(GetCorpus(top_ratings))
+      v<-sort(rowSums(a),decreasing = TRUE)
+      TopWords<-data.frame(word=names(v),freq=v)
+      return(TopWords)
+      
+    })
+    
+    output$WordCloudHighRating <- renderPlot({
+      
+      wordcloud(GetHighWordCloud()$word,GetHighWordCloud()$freq,random.order = FALSE,rot.per = 0.3,
+                               scale = c(4,1),max.words = 105,colors=brewer.pal(8,"Dark2"))
+    
+  })
+    
+    GetLowWordCloud <- reactive({
+      DF2<-WordCloudDataFrame %>% filter(F3_Haupteinkaufsstaette %in% input$SuperMarketName) %>%
+        select(F7_2_ERWARTUNGEN_1,F7_1.1_ZUFR_BEGR_offen)
+      Low_ratings<-DF2 %>% 
+        filter(F7_2_ERWARTUNGEN_1 %in% c(1,2,3)) %>% 
+        select(F7_1.1_ZUFR_BEGR_offen)
+      a2<-as.matrix(GetCorpus(Low_ratings))
+      v2<-sort(rowSums(a2),decreasing = TRUE)
+      TopWords2<-data.frame(word=names(v2),freq=v)
+      return(TopWords)
+      
+    })
+    
+    output$WordCloudLowRating <- renderPlot({
+      
+      wordcloud(GetHighWordCloud()$word,GetHighWordCloud()$freq,random.order = FALSE,rot.per = 0.3,
+                               scale = c(4,1),max.words = 105,colors=brewer.pal(8,"Dark2"))
+    
+  })
+    
+    output$IncomeLevelTable <- renderTable({
+      
+      df <-IncomeStringsTable
+      df
+      
+    })
+    
+    GetIncomeWRTMarket <- reactive({
+      df<-IncomeDistribution %>% 
+        filter(F3_Haupteinkaufsstaette %in% input$SuperMarketName) %>% 
+        select(F44_HEK,S3_Bundesland) %>% 
+        filter(F44_HEK!=99)
+      return(df)
+    })
+    
+    output$IncomeDistBarPlot = renderPlotly({
+      
+      p<- ggplot(GetIncomeWRTMarket(),aes(x=F44_HEK,group=S3_Bundesland))+
+        geom_bar(aes(y= ..prop.., fill=factor(..x..)),stat="count")+
+        scale_y_continuous(labels = scales::percent)+
+        ylab("Percentage Distribution")+
+        xlab("Income Levels")+
+        facet_grid(~S3_Bundesland)
+      ggplotly(p)
+    })
+    
+    
+    
+    GetPieChartInput <- reactive({
+      
+      df <- NoOtherOptionsDF %>% filter(F3_Haupteinkaufsstaette %in% input$SuperMarketName)
+      
+      df_Primary_best<-df %>% 
+        filter(F4_EKS_Umfeld==2) %>% 
+        summarize(x4<<-n())
+
+      df_Primary_noption<-df %>% 
+        filter(F4_EKS_Umfeld==1) %>% 
+        summarize(x5<<-n())
+
+      df_piechart<-data.frame(
+        group=c(paste0(input$SuperMarketName," Main Store"),paste0(input$SuperMarketName," Mainstore No other option")),
+        value=c(x4,x5))
+      return(df_piechart)
+      
+    })
+    
+    output$OptionsPieChart = renderPlot({
+      ggplot(GetPieChartInput(),aes(x="",y=value,fill=group))+
+        geom_bar(stat ="identity",width = 1)+
+        coord_polar("y",start=0)
+      
+      
+    })
+    
+    GetBarChartInput <- reactive({
+      
+      DataFrame <- NoOtherOptionsDF %>% filter(F3_Haupteinkaufsstaette %in% input$SuperMarketName)
+      
+      SampleDF<-DataFrame %>%
+        select(S3_Bundesland,F4_EKS_Umfeld) %>% 
+        filter(F4_EKS_Umfeld==1)
+      return(SampleDF)
+      
+    })
+    
+    output$plotgraph2  = renderPlotly({
+      P <- ggplot(GetBarChartInput(),aes(x=S3_Bundesland))+
+        geom_bar(aes(y= ..prop.., fill=factor(..x..)),stat="count")+
+        scale_y_continuous(labels = scales::percent)+
+        xlab("State Name")+
+        ylab("Percentage of Customers")
+      
+      fig <- ggplotly(P)
+      fig
+      
+    })
+    
+    
+    GetPriceSettings <- reactive({
+      Df <- QualityInspection %>% filter(F3_Haupteinkaufsstaette %in% input$SuperMarketName)
+      price_settings<-Df %>% 
+        select(F40_1_REDUZIERTER_PREIS_1,F40_2_NIEDRIGPREISE_1,F40_3_PREISLEISTUNG_1,F40_4_PREISVERGLEICH_1)
+      
+      return(price_settings)
+    })
+    
+    output$PriceSetting1 = renderPlotly({
+      f1<- ggplot(GetPriceSettings(), aes(x = F40_1_REDUZIERTER_PREIS_1, fill=F40_1_REDUZIERTER_PREIS_1))+
+        geom_bar() + 
+        xlab('Customer purchase behavior for reduced price')
+      fig1 <- ggplotly(f1)
+      fig1
+    })
+      
+    output$PriceSetting2 = renderPlotly({
+      f2<- ggplot(GetPriceSettings(), aes(x = F40_2_NIEDRIGPREISE_1, fill=F40_2_NIEDRIGPREISE_1))+
+        geom_bar() + 
+        xlab('Customer first choice for Low Priced Products')
+      fig2 <- ggplotly(f2)
+      fig2
+    })
+    
+    output$PriceSetting3 = renderPlotly({
+      f3<- ggplot(GetPriceSettings(), aes(x = F40_4_PREISVERGLEICH_1, fill=F40_4_PREISVERGLEICH_1))+
+        geom_bar() + 
+        xlab('Customer compare prices to find the cheapest products')
+      fig3 <- ggplotly(f3)
+      fig3
+    })
+      
+    
+    GetQualitySettings <- reactive({
+      Df <- QualityInspection %>% filter(F3_Haupteinkaufsstaette %in% input$SuperMarketName)
+      quality_settings<-Df %>% 
+        select(F41_1_WICHTIG_1,F41_2_BESTE_1,F41_3_BESTE_GESAMTQUALITAET_1,F41_4_BESTE_QUALITAET_1)
+      return(quality_settings)
+    })
+    
+    output$QualitySetting1 = renderPlotly({
+      f1<- ggplot(GetQualitySettings(), aes(x = F41_1_WICHTIG_1, fill=F41_1_WICHTIG_1))+
+        geom_bar() + 
+        xlab('Customer response for getting very good Quality is Most important ')
+      fig1 <- ggplotly(f1)
+      fig1
+    })
+    output$QualitySetting2 = renderPlotly({
+      f2<- ggplot(GetQualitySettings(), aes(x = F41_2_BESTE_1, fill=F41_2_BESTE_1))+
+        geom_bar() + 
+        xlab('Customers response for searching for best quality products ')
+      fig2 <- ggplotly(f2)
+      fig2
+    })
+    output$QualitySetting3 = renderPlotly({
+      f3<- ggplot(GetQualitySettings(), aes(x = F41_4_BESTE_QUALITAET_1, fill=F41_4_BESTE_QUALITAET_1))+
+        geom_bar() + 
+        xlab('Customers willing to make special efforts to buy best quality products')
+      fig3 <- ggplotly(f3)
+      fig3
+    })
+      
+    GetFindability <- reactive({
+      
+      FindabilityDF<-QualityInspection %>%
+        select(F33_1_AUFFINDBARKEIT_SCHNELLIGKEIT_1,F33_2_AUFFINDBARKEIT_AUSSCHILDERUNG_1)
+      
+      return(FindabilityDF)
+      
+    })
+    
+    output$Findability = renderPlotly({
+      f<-ggplot(GetFindability(), aes(x = F33_1_AUFFINDBARKEIT_SCHNELLIGKEIT_1, fill=F33_1_AUFFINDBARKEIT_SCHNELLIGKEIT_1))+
+        geom_bar() + 
+        xlab('')
+      fig <- ggplotly(f)
+      fig
+    })
+    
+    GetPriceLabling <- reactive({
+      
+      PriceLabelling<-QualityInspection %>% 
+        select(F34_1_PREIS_RICHTIG_1,F34_2_PREIS_ZUORDNUNG_1,F34_3_PREIS_INFORMATIONEN_1)
+      
+      return(PriceLabelling)
+      
+    })
+    
+    
+    output$PriceLabeling = renderPlotly({
+      f <- ggplot(GetPriceLabling(), aes(x = F34_1_PREIS_RICHTIG_1, fill=F34_1_PREIS_RICHTIG_1))+
+        geom_bar() + 
+        xlab('Customers response for Price labelling')
+      
+      fig <- ggplotly(f)
+      fig
+    })
+    
+    output$PriceTable = renderTable({
+     df <- PricingTable
+     df
+      
+    })
+    
+    
+  },
+
+  options = list(height = 8200)
+)
+
+
+
+
+```
+</div>
+
